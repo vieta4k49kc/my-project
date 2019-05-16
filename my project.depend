@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1558018158 source:d:\my project\animation.cpp
+	"Animation.h"
+
+1558018158 d:\my project\animation.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	<vector>
+
+1558018158 source:d:\my project\main.cpp
+	<iostream>
+	<Windows.h>
+	"Game.h"
+	<SFML/Audio.hpp>
+
+1558018297 d:\my project\game.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	"Player.h"
+	"Threat.h"
+	"Animation.h"
+	<list>
+	"Police.h"
+
+1558018158 d:\my project\player.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+
+1558018158 d:\my project\threat.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	<cstdlib>
+	<time.h>
+
+1558018460 d:\my project\include\police.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+
+1558018158 source:d:\my project\player.cpp
+	"Player.h"
+
+1558018158 source:d:\my project\threat.cpp
+	"Threat.h"
+
+1558018460 source:d:\my project\src\police.cpp
+	"Police.h"
+
+1558018297 source:d:\my project\game.cpp
+	"Game.h"
+

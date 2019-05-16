@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1556888808 source:d:\racing\animation.cpp
+	"Animation.h"
+
+1556888498 d:\racing\animation.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	<vector>
+
+1557753948 source:d:\racing\game.cpp
+	"Game.h"
+
+1557751643 d:\racing\game.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	"Player.h"
+	"Threat.h"
+	"Animation.h"
+	<list>
+
+1554607054 d:\racing\player.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+
+1553664789 d:\racing\threat.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	<cstdlib>
+	<time.h>
+
+1557751661 source:d:\racing\main.cpp
+	<iostream>
+	<Windows.h>
+	"Game.h"
+	<SFML/Audio.hpp>
+
+1557751764 source:d:\racing\threat.cpp
+	"Threat.h"
+
+1557754038 source:d:\racing\player.cpp
+	"Player.h"
+
+1553770768 source:d:\racing\src\soundeffectmanager.cpp
+	"SoundEffectManager.h"
+
+1553743530 d:\racing\include\soundeffectmanager.h
+	<SFML/Audio.hpp>
+
+1553743530 d:\racing\soundeffectmanager.h
+	<SFML/Audio.hpp>
+
+1553743393 source:d:\racing\soundeffectmanager.cpp
+	"SoundEffectManager.h"
+
+1554001673 source:d:\racing\src\heart.cpp
+	"Heart.h"
+
+1553996318 d:\racing\include\heart.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	<cstdlib>
+	<time.h>
+
+1554021629 d:\racing\heart.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<Windows.h>
+	<cstdlib>
+	<time.h>
+
+1554105671 source:d:\racing\heart.cpp
+	"Heart.h"
+
+1554341089 source:d:\racing\src\sound.cpp
+	"Sound.h"
+
+1554341089 d:\racing\include\sound.h
+
+1554819603 source:d:\racing\src\audio.cpp
+	"Audio.h"
+
+1554816798 d:\racing\include\audio.h
+	<SFML/Audio.hpp>
+	<iostream>
+	<Windows.h>
+	<SFML/Graphics.hpp>
+
+1555815643 d:\racing\include\gameover.h
+	<Windows.h>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1555746917 d:\racing\gameover.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+
+1555837159 source:d:\racing\src\gameover.cpp
+	"GameOver.h"
+
+1555924581 d:\racing\bullet.h
+	<SFML/Graphics.hpp>
+

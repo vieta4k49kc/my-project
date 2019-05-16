@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="my project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/my project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/my project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="Car_1.png" />
+		<Unit filename="Car_2.png" />
+		<Unit filename="Car_3.png" />
+		<Unit filename="Explosion.png" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Heart.png" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="MarkerFelt.ttf" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="README.md" />
+		<Unit filename="Threat.cpp" />
+		<Unit filename="Threat.h" />
+		<Unit filename="background.png" />
+		<Unit filename="caracing.cbp" />
+		<Unit filename="gunny.wav" />
+		<Unit filename="include/Police.h" />
+		<Unit filename="my project.cbp" />
+		<Unit filename="racer.png" />
+		<Unit filename="racing.cbp" />
+		<Unit filename="racing.depend" />
+		<Unit filename="racing.layout" />
+		<Unit filename="src/Police.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="racing" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/racing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/racing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="Assets/Font/MarkerFelt.ttf" />
+		<Unit filename="Assets/Font/xirod.ttf" />
+		<Unit filename="Assets/Sound/Damage.wav" />
+		<Unit filename="Assets/Sound/LoseLife.wav" />
+		<Unit filename="Assets/Sound/gunny.wav" />
+		<Unit filename="Assets/Texture/Explosion.png" />
+		<Unit filename="Assets/Texture/Heart.png" />
+		<Unit filename="Assets/Texture/background.png" />
+		<Unit filename="Assets/Texture/barrel.png" />
+		<Unit filename="Assets/Texture/block.png" />
+		<Unit filename="Assets/Texture/gameover.png" />
+		<Unit filename="Assets/Texture/type_C.png" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Project1.exe" />
+		<Unit filename="README.md" />
+		<Unit filename="Threat.cpp" />
+		<Unit filename="Threat.h" />
+		<Unit filename="caracing.cbp" />
+		<Unit filename="racer.png" />
+		<Unit filename="racing.cbp" />
+		<Unit filename="racing.depend" />
+		<Unit filename="racing.layout" />
+		<Unit filename="road2.png" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
